@@ -1,0 +1,467 @@
+
+/* 
+
+.sidenav {
+    margin-top: 1%;
+    margin-left: 60%;
+    width: 25%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2; 
+}
+.circle-link2 {
+    width: 75px;
+    height: 75px;
+    background-color: #B2BEB5;
+  
+    text-align: center;
+    line-height: 75px;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.circle-link3 {
+    width: 75px;
+    height: 75px;
+    background-color: #848482;
+
+    text-align: center;
+    line-height: 75px;
+ 
+    color: #fff;
+    text-decoration: none;
+}
+.circle-link4 {
+    width: 75px;
+    height: 75px;
+    background-color:#B2BEB5;
+
+    text-align: center;
+    line-height: 75px;
+    
+    color: #fff;
+    text-decoration: none;
+}
+.circle-link5 {
+    width: 75px;
+    height: 75px;
+    background-color: #848482;
+
+    text-align: center;
+    line-height: 75px;
+
+    color: #fff;
+    text-decoration: none;
+}
+.circle-link1:hover {
+    background-color: #0056b3;
+}
+.circle-link2:hover {
+    background-color: #0056b3;
+}
+
+.circle-link3:hover {
+    background-color: #0056b3;
+}
+*/
+
+/* Define the sections on the page to scroll to */
+#section1, #section2, #section3 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* nav bar end */
+
+
+
+.resume2 {
+    display: none;
+}
+
+
+.Describingtext {
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+    width: 700px;
+    margin-top: 8%;
+    text-decoration: none;
+    
+}
+img {
+    border-radius: 10%;
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    text-decoration: none;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon1 {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    background-color: #FF605C;
+    
+}
+
+.icon2 {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    background-color: #FFBD44;
+    
+}
+
+.icon3 {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    background-color: #00CA4E;
+    
+}
+
+.icon-container p{
+   text-decoration: none;
+   color: #000000;
+    padding-top: 35%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+
+.icon1:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.icon2:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.icon3:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+
+
+.title h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.about p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.resume img {
+    height: 300px;
+    width: 100px;
+}
+
+.resume {
+    display: flex;
+
+}
+.link {
+    display: none;
+}
+
+.resume p {
+    max-width: 60%;
+    margin-left: 2%;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+}
+.buttonclass {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 10%;
+    border-radius:10px
+}
+.buttonclass button{
+    border-radius:10px
+}
+
+
+.buttonclass button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+
+.container2 {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+.container2 h2{ 
+    margin-bottom: 2%;
+    font-size: 50px;
+    text-align: center;
+}
+.part1p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3%;
+
+}
+.games {
+    display: flex;
+}
+.firstp {
+    max-width: 60%;
+    margin-left: 8%;
+    margin-top: 8%;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.backtotop button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oldwebsite button{
+    border-radius:10px;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.oldwebsite button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.backtotop {
+    display: flex;
+    align-items: center;
+}
+
+.backtotop button{
+    border-radius:10px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backtotop button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    border-bottom: 0;
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+/* Define the sections on the page to scroll to */
+#section1, #section2, #section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Changed to auto for responsiveness */
+}
+
+/* Navigation bar styles */
+header {
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+/* Description styles */
+.descript p {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+    text-decoration: none;
+}
+
+/* Title styles */
+h1 {
+    font-size: 40px; /* Adjusted font size for smaller screens */
+    color: #333;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+/* Container styles */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/* Adjusted icon container styles for responsiveness */
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-container p {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 800px) {
+    .imghide {
+        display: none;
+    }
+
+    .section1 {
+        margin-bottom: 20%; /* Adjusted margin for smaller screens */
+    }
+
+    .section2 {
+        margin-top: 20%; /* Adjusted margin for smaller screens */
+    }
+
+    .container, .container2 {
+        text-align: center;
+        max-width: 90%; /* Changed to a percentage for responsiveness */
+        margin: 5% auto;
+    }
+
+    .resume p {
+        max-width: 100%; /* Adjusted width for smaller screens */
+        margin: 0 auto;
+    }
+    .games {
+    display: block;
+    margin-left: 15%;
+}
+.resume {
+    display: block;
+
+}
+.resume p {
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+}
+.buttonclass {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 30%;
+    border-radius:10px
+}
+.link {
+    display: block;
+    margin-right: 25%;
+}
+.game {
+    display: none;
+}
+.Describingtext {
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+    max-width: 60%;
+    margin-top: 8%;
+    text-decoration: none;
+    
+}
+.resume2 {
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.resume1 {
+    display: none;
+}
+}
